@@ -23,3 +23,4 @@
 .環境開発:http://localhost/
 .phpMyAdmin:http://localhost:8080/
 #confirmation-test001
+#confirmation-test001
