@@ -1,0 +1,240 @@
+/* ベーススタイル */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f9f5f0;
+    /* 薄茶色 */
+    color: #a67c52;
+    /* 薄茶色 */
+}
+
+/* ヘッダー */
+header {
+    background-color: #ffffff;
+    /* 白色 */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ヘッダーのタイトル */
+.header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #a67c52;
+    /* 薄茶色 */
+    text-align: center;
+    flex-grow: 1;
+    /* 中央に配置 */
+}
+
+/* ログインボタン */
+.login-btn {
+    background-color: #d3d3d3;
+    /* 薄鼠色 */
+    border: 2px solid #a67c52;
+    /* 茶色の縁 */
+    color: #a67c52;
+    /* 薄茶色 */
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 0;
+    /* 直角 */
+}
+
+.login-btn:hover {
+    background-color: #c5c5c5;
+    /* ホバー時の色 */
+}
+
+/* コンテナ */
+.container {
+    max-width: 600px;
+    margin: 50px auto 0;
+    padding: 20px;
+}
+
+/* 登録のタイトル */
+.register-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* 登録ボックス */
+.register-box {
+    background-color: #ffffff;
+    /* 白色 */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* フォーム */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 90%;
+    /* 縮めた幅 */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 登録ボタン */
+.btn-register {
+    display: block;
+    width: 50%;
+    /* 縮めた幅 */
+    margin: 20px auto 0;
+    padding: 10px 0;
+    background-color: #a67c52;
+    /* 茶色 */
+    color: #ffffff;
+    /* 白色 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    background-color: #8e5e42;
+    /* ホバー時の色 */
+}
+
+/* /login ページ専用スタイル */
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ログインタイトル */
+.login-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    /* login-boxとの間隔 */
+    color: #a67c52;
+    /* 薄茶色 */
+}
+
+/* Registerボタン */
+.register-btn {
+    display: inline-block;
+    background-color: #f9f5f0;
+    /* 背景と同じ色 */
+    color: #a67c52;
+    /* 薄茶色 */
+    border: 2px solid #8e5e42;
+    /* 少し濃い茶色 */
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #e5d9cf;
+    /* ホバー時の薄い色 */
+    color: #8e5e42;
+    /* 濃い茶色 */
+    border-color: #a67c52;
+    /* 薄茶色 */
+}
+
+/* ログインボタン */
+.btn-login {
+    display: block;
+    width: 50%;
+    /* ボタンの幅を50%に設定 */
+    margin: 20px auto;
+    /* 上下に余白を追加し、左右中央揃え */
+    padding: 10px 0;
+    background-color: #a67c52;
+    /* 茶色 */
+    color: #ffffff;
+    /* 白色 */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #8e5e42;
+    /* ホバー時の濃い茶色 */
+}
+
+/* Thanksページ全体のスタイル */
+.thanks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    /* 白背景 */
+    position: relative;
+    overflow: hidden;
+}
+
+/* 背景に透けたThank You */
+.thanks-background {
+    font-size: 10rem;
+    font-weight: bold;
+    color: rgba(166, 124, 82, 0.2);
+    /* 透け感のある薄茶色 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    white-space: nowrap;
+}
+
+/* 上に表示されるメッセージ */
+.thanks-message {
+    font-size: 1.5rem;
+    color: #a67c52;
+    /* 濃い茶色 */
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* HOMEボタン */
+.home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a67c52;
+    /* 濃い茶色 */
+    color: #ffffff;
+    /* 白文字 */
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+
+.home-btn:hover {
+    background-color: #8e5e42;
+    /* ホバー時の濃い茶色 */
+}

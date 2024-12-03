@@ -1,0 +1,108 @@
+/* ベーススタイル */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f9f5f0;
+    /* 薄茶色 */
+    color: #a67c52;
+    /* 薄茶色 */
+}
+
+/* ヘッダー */
+header {
+    background-color: #ffffff;
+    /* 白色 */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ヘッダーのタイトル */
+.header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #a67c52;
+    /* 薄茶色 */
+    text-align: center;
+    flex-grow: 1;
+    /* 中央に配置 */
+}
+
+/* 登録ボタン */
+.login-btn {
+    background-color: #d3d3d3;
+    /* 薄鼠色 */
+    border: 2px solid #a67c52;
+    /* 茶色の縁 */
+    color: #a67c52;
+    /* 薄茶色 */
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 0;
+    /* 直角 */
+}
+
+.login-btn:hover {
+    background-color: #c5c5c5;
+    /* ホバー時の色 */
+}
+
+/* コンテナ */
+.container {
+    max-width: 600px;
+    margin: 50px auto 0;
+    padding: 20px;
+}
+
+/* ログインボックス */
+.login-box {
+    background-color: #ffffff;
+    /* 白色 */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* フォーム */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 90%;
+    /* 縮めた幅 */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ログインボタン */
+.btn-login {
+    display: block;
+    width: 50%;
+    /* 縮めた幅 */
+    margin: 20px auto 0;
+    padding: 10px 0;
+    background-color: #a67c52;
+    /* 茶色 */
+    color: #ffffff;
+    /* 白色 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #8e5e42;
+    /* ホバー時の色 */
+}
